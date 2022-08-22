@@ -1,0 +1,79 @@
+# vsim work.Top_MIPS 
+# Loading work.Top_MIPS
+# Loading work.ALU
+# Loading work.Control_unit
+# Loading work.Data_mem
+# Loading work.Inst
+# Loading work.PC
+# Loading work.sign_Extend
+# Loading work.Shift_left
+# Loading work.Adder
+# Loading work.Register_file
+# Loading work.MUX
+add wave -position end  sim:/Top_MIPS/Res
+add wave -position end  sim:/Top_MIPS/clk
+add wave -position end  sim:/Top_MIPS/Test_value
+force -freeze sim:/Top_MIPS/clk 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/Top_MIPS/Res 0 0
+force -freeze sim:/Top_MIPS/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Top_MIPS/Res 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
